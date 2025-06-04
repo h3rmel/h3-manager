@@ -1,0 +1,11 @@
+{
+  "explorer.compactFolders": false,
+  "explorer.fileNesting.enabled": true,
+  "explorer.fileNesting.expand": true,
+  "explorer.fileNesting.patterns": {
+    "tsconfig.json": "tsconfig.*.json",
+    "package.json": "package-lock.json, yarn.lock, pnpm-lock.yaml, bun.lockb",
+    "eslint.config.mjs": "prettier.config.mjs, postcss.config.mjs",
+    "next.config.ts": "next-env.d.ts"
+  }
+}
