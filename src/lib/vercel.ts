@@ -1,7 +1,7 @@
 import { Vercel } from '@vercel/sdk';
 
 const vercel = new Vercel({
-  bearerToken: 'ag0PKligdGn7gzC1DvQlDEm8',
+  bearerToken: process.env.VERCEL_TOKEN,
 });
 
 export async function getProjects() {
